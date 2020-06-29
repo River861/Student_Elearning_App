@@ -1,6 +1,6 @@
 ﻿## 网络创新实验 期末报告
 
-姓名：罗旭川                          学号：17307130162                            时间：2020.3 ~ 2020.6
+姓名：罗旭川           &emsp;               学号：17307130162              &emsp;              时间：2020.3 ~ 2020.6
 
 #### 一、项目名称
 
@@ -34,57 +34,57 @@
 
 ##### 1） 登录
 
-<img src=".\Report\1.1.PNG" style="zoom:25%;" />     <img src=".\Report\1.2.PNG" style="zoom:25%;" />
+<img src=".\Report\1.1.PNG" style="zoom:10%;" />     <img src=".\Report\1.2.PNG" style="zoom:10%;" />
 
 若之前已登录过，则用户名和密码将会被自动填充；每当进行数据请求时界面都会有loading动画。
 
 ##### 2）Dashboard功能区
 
-<img src=".\Report\2.1.PNG" style="zoom:25%;" />     <img src=".\Report\2.2.PNG" style="zoom:25%;" />     <img src=".\Report\2.3.PNG" style="zoom:25%;" />
+<img src=".\Report\2.1.PNG" style="zoom:10%;" />     <img src=".\Report\2.2.PNG" style="zoom:10%;" />     <img src=".\Report\2.3.PNG" style="zoom:10%;" />
 
 * 查看公告（Announcements）
 
-  <img src=".\Report\2.4.PNG" style="zoom:25%;" />     <img src=".\Report\2.5.PNG" style="zoom:25%;" />     <img src=".\Report\2.6.PNG" style="zoom:29%;" />
+  <img src=".\Report\2.4.PNG" style="zoom:10%;" />     <img src=".\Report\2.5.PNG" style="zoom:10%;" />     <img src=".\Report\2.6.PNG" style="zoom:9%;" />
 
   可以在公告列表中查看该课程的公告，长公告支持滚动，同时支持图片渲染。这里是通过HTML模块实现的。
 
 * 查看文件（Files）
 
-  <img src=".\Report\2.7.PNG" style="zoom:25%;" />     <img src=".\Report\2.8.PNG" style="zoom:25%;" />     <img src=".\Report\2.9.PNG" style="zoom:25%;" /> 
+  <img src=".\Report\2.7.PNG" style="zoom:10%;" />     <img src=".\Report\2.8.PNG" style="zoom:10%;" />     <img src=".\Report\2.9.PNG" style="zoom:10%;" /> 
 
   如果是文件夹则可以继续打开，如果是文件则可以点击进行在线浏览，各类型文件用图标区分。在线浏览的功能在模拟器中无法运行，在真机上则可以，如下图：
 
-  <img src=".\Report\2.10.PNG" style="zoom:25%;" />     <img src=".\Report\2.11.PNG" style="zoom:25%;" />    <img src=".\Report\2.12.PNG" style="zoom:25%;" /> 
+  <img src=".\Report\2.10.PNG" style="zoom:10%;" />     <img src=".\Report\2.11.PNG" style="zoom:10%;" />    <img src=".\Report\2.12.PNG" style="zoom:10%;" /> 
 
   在线浏览时可以放大、滚动。
 
 * 查看作业（Homework）
 
-  <img src=".\Report\2.13.PNG" style="zoom: 45%;" />     <img src=".\Report\2.14.PNG" style="zoom:25%;" /> 
+  <img src=".\Report\2.13.PNG" style="zoom: 45%;" />     <img src=".\Report\2.14.PNG" style="zoom:10%;" /> 
 
   可以在作业列表中查看该课程的作业，列表项中绿色图标表示已完成，未完成将是红色。点击进入可以查看该项作业的详细要求，这里也是通过HTML模块渲染实现的。
 
 * 查看人员（Members）
 
-  <img src=".\Report\2.15.PNG" style="zoom:29%;" /> 
+  <img src=".\Report\2.15.PNG" style="zoom:9%;" /> 
 
   在人员列表中可以查看该课程的人员信息，包括老师、助教和学生的头像、姓名、学号信息。
 
 * 修改课程卡片颜色
 
-  <img src=".\Report\2.16.PNG" style="zoom:25%;" />     <img src=".\Report\2.17.PNG" style="zoom:25%;" />     <img src=".\Report\2.18.PNG" style="zoom:25%;" /> 
+  <img src=".\Report\2.16.PNG" style="zoom:10%;" />     <img src=".\Report\2.17.PNG" style="zoom:10%;" />     <img src=".\Report\2.18.PNG" style="zoom:10%;" /> 
 
   点击右上角的颜色板按键，可以为该课程换色，除了选择颜色，还可以调节亮度。如图换成了深粉色。
 
 ##### 3）Calendar功能区
 
-<img src=".\Report\3.1.PNG" style="zoom:25%;" />     <img src=".\Report\3.2.PNG" style="zoom:25%;" />     <img src=".\Report\3.3.PNG" style="zoom:25%;" />
+<img src=".\Report\3.1.PNG" style="zoom:10%;" />     <img src=".\Report\3.2.PNG" style="zoom:10%;" />     <img src=".\Report\3.3.PNG" style="zoom:10%;" />
 
 上下滑动切换周视图和月视图；左右滑动则是进入上一周/月和进入下一周/月。
 
 * 一句话任务的新增、删除、查询
 
-  <img src=".\Report\3.5.PNG" style="zoom:25%;" />     <img src=".\Report\3.6.PNG" style="zoom:25%;" />     <img src=".\Report\3.8.PNG" style="zoom:25%;" />
+  <img src=".\Report\3.5.PNG" style="zoom:10%;" />     <img src=".\Report\3.6.PNG" style="zoom:10%;" />     <img src=".\Report\3.8.PNG" style="zoom:10%;" />
 
   * 日历右上角3个按键分别为：跳到今日，新增任务，切换周月视图
 
@@ -92,7 +92,7 @@
 
 * 每日任务的完成情况用颜色标记
 
-  <img src=".\Report\3.9.PNG" style="zoom:25%;" /> 
+  <img src=".\Report\3.9.PNG" style="zoom:10%;" /> 
 
   * 绿色：表示过去某一天的任务全部完成
   * 红色：表示过去某一天还有任务没有完成
@@ -100,21 +100,21 @@
 
 ##### 4）Home功能区
 
-<img src=".\Report\4.1.PNG" style="zoom:29%;" />     <img src=".\Report\4.7.PNG" style="zoom:29%;" />
+<img src=".\Report\4.1.PNG" style="zoom:9%;" />     <img src=".\Report\4.7.PNG" style="zoom:9%;" />
 
 * 个人界面的右上角3个按键分别为：退出登录，清空文件缓存，修改个人颜色
 
-  <img src=".\Report\4.2.PNG" style="zoom:29%;" />     <img src=".\Report\4.3.PNG" style="zoom:25%;" />     <img src=".\Report\4.4.PNG" style="zoom:29%;" />   
+  <img src=".\Report\4.2.PNG" style="zoom:9%;" />     <img src=".\Report\4.3.PNG" style="zoom:10%;" />     <img src=".\Report\4.4.PNG" style="zoom:9%;" />   
 
 * 个人代办事项的集中显示
 
-  <img src=".\Report\4.5.PNG" style="zoom:25%;" /> 
+  <img src=".\Report\4.5.PNG" style="zoom:10%;" /> 
 
   包括未完成的作业，以及在日历中进行的计划，都会在这里集中显示。
 
 * 个人文件夹
 
-  <img src=".\Report\4.6.PNG" style="zoom:25%;" />     <img src=".\Report\4.8.PNG" style="zoom:25%;" /> 
+  <img src=".\Report\4.6.PNG" style="zoom:10%;" />     <img src=".\Report\4.8.PNG" style="zoom:10%;" /> 
 
   这里复用的和课程文件一样的Files模块，可以在这里找到自己提交的课程作业文件。
 
