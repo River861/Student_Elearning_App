@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Elearning</string>
+
+    <string name="dash_board">Dashboard</string>
+    <string name="notification">Notifications</string>
+    <string name="calender">Calender</string>
+    <string name="my_home">Home</string>
+
+    <string name="loading">Loading...</string>
+    <string name="student_id">Student ID</string>
+    <string name="pass_word">Password</string>
+    <string name="login">Login</string>
+
+    <string name="new_task">Add a new task to this day...</string>
+    <string name="no_task">No plans for today.</string>
+
+</resources>

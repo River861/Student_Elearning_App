@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="5dp">
+
+    <!-- 用于显示图标的ImageView -->
+    <ImageView
+        android:id="@+id/task_finished"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="7dp"
+        android:contentDescription="@string/loading" />
+
+    <TextView
+        android:id="@+id/task_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="7dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toStartOf="@id/btn_layout"
+        android:layout_toLeftOf="@id/btn_layout"
+        android:layout_toEndOf="@id/task_finished"
+        android:layout_toRightOf="@id/task_finished"
+        android:text="@string/loading"
+        android:textColor="@color/text_white"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp">
+
+        <Button
+            android:id="@+id/finish_btn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/finish_btn" />
+
+        <Button
+            android:id="@+id/delete_btn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/delete_btn" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

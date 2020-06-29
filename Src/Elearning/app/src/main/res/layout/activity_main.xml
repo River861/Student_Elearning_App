@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/topbar_background">
+
+        <TextView
+            android:id="@+id/topbar_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/topbar_txt"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/div_white" />
+
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/menu_bar"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:paddingTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/menu_background"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/dashboard_btn"
+            android:drawableTop="@drawable/dashboard"
+            style="@style/menu_item" />
+
+        <RadioButton
+            android:id="@+id/calendar_btn"
+            android:drawableTop="@drawable/calendar"
+            style="@style/menu_item" />
+
+        <RadioButton
+            android:id="@+id/home_btn"
+            android:drawableTop="@drawable/home"
+            style="@style/menu_item" />
+
+    </RadioGroup>
+
+    <View
+        android:id="@+id/div_menu_bar"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_above="@id/menu_bar"
+        android:background="@color/div_white" />
+
+    <FrameLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/div_menu_bar"
+        android:layout_below="@id/top_bar"></FrameLayout>
+
+</RelativeLayout>

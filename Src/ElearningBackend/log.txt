@@ -1,0 +1,25 @@
+2020-06-28 22:35:47,013 - flask_cors.core - core.py[line:362] - WARNING - Unknown option passed to Flask-CORS: support_credentials
+2020-06-28 22:35:47,014 - flask_cors.core - core.py[line:362] - WARNING - Unknown option passed to Flask-CORS: support_credentials
+2020-06-28 22:35:47,032 - werkzeug - _internal.py[line:122] - INFO -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2020-06-28 22:51:35,100 - werkzeug - _internal.py[line:122] - INFO - 192.168.1.102 - - [28/Jun/2020 22:51:35] "GET /hello HTTP/1.1" 200 -
+2020-06-28 22:51:35,302 - werkzeug - _internal.py[line:122] - INFO - 192.168.1.102 - - [28/Jun/2020 22:51:35] "GET /favicon.ico HTTP/1.1" 404 -
+2020-06-28 22:53:47,118 - werkzeug - _internal.py[line:122] - INFO - 192.168.1.102 - - [28/Jun/2020 22:53:47] "POST /getElearningToken HTTP/1.1" 200 -
+2020-06-28 22:53:48,356 - root - MyBackend.py[line:117] - ERROR - 
+[color_dict]
+{'user_14216': '#000066', 'course_17559': '#9F7217', 'course_17552': '#0B9BE3', 'course_22328': '#9f0050', 'course_22466': '#2449b5', 'course_22335': '#324A4D', 'course_22366': '#e37200', 'course_22448': '#ff33cc', 'course_22324': '#4cbfbf', 'course_22334': '#63c500', 'course_27194': '#D41E00'}
+2020-06-28 22:53:48,957 - root - MyBackend.py[line:145] - ERROR - 
+[course_dicts]
+{27194: {'course_name': '新冠肺炎疫情防控入校学生测试', 'course_subname': '', 'course_color': '#D41E00'}, 22324: {'course_name': '算法设计与分析', 'course_subname': 'COMP130011.02 Algorithm Design and Analysis', 'course_color': '#4cbfbf'}, 22328: {'course_name': '计算机体系结构', 'course_subname': 'COMP130012.01 Computer Architecture', 'course_color': '#9f0050'}, 22334: {'course_name': '计算机体系结构实验', 'course_subname': 'COMP130013.02 Computer Architecture Laboratory', 'course_color': '#63c500'}, 22335: {'course_name': '软件工程', 'course_subname': 'COMP130015.01 Software Engineering', 'course_color': '#324A4D'}, 22366: {'course_name': 'JAVA语言', 'course_subname': 'COMP130048.01 Java Programming', 'course_color': '#e37200'}, 22448: {'course_name': '网络创新实验', 'course_subname': 'COMP130107.01 Innovation Experiment of Networks', 'course_color': '#ff33cc'}, 22466: {'course_name': '面向对象程序设计', 'course_subname': 'COMP130135.04 Object Oriented Programming', 'course_color': '#2449b5'}}
+2020-06-28 22:53:50,854 - werkzeug - _internal.py[line:122] - INFO - 192.168.1.102 - - [28/Jun/2020 22:53:50] "POST /getMainData HTTP/1.1" 200 -
+2020-06-28 22:53:53,872 - werkzeug - _internal.py[line:122] - INFO - 192.168.1.102 - - [28/Jun/2020 22:53:53] "POST /getTaskList HTTP/1.1" 200 -
+2020-06-28 22:56:55,569 - werkzeug - _internal.py[line:122] - INFO - 192.168.1.102 - - [28/Jun/2020 22:56:55] "POST /getElearningToken HTTP/1.1" 200 -
+2020-06-28 22:56:56,132 - root - MyBackend.py[line:117] - ERROR - 
+[color_dict]
+{'user_14216': '#000066', 'course_17559': '#9F7217', 'course_17552': '#0B9BE3', 'course_22328': '#9f0050', 'course_22466': '#2449b5', 'course_22335': '#324A4D', 'course_22366': '#e37200', 'course_22448': '#ff33cc', 'course_22324': '#4cbfbf', 'course_22334': '#63c500', 'course_27194': '#D41E00'}
+2020-06-28 22:56:56,734 - root - MyBackend.py[line:145] - ERROR - 
+[course_dicts]
+{27194: {'course_name': '新冠肺炎疫情防控入校学生测试', 'course_subname': '', 'course_color': '#D41E00'}, 22324: {'course_name': '算法设计与分析', 'course_subname': 'COMP130011.02 Algorithm Design and Analysis', 'course_color': '#4cbfbf'}, 22328: {'course_name': '计算机体系结构', 'course_subname': 'COMP130012.01 Computer Architecture', 'course_color': '#9f0050'}, 22334: {'course_name': '计算机体系结构实验', 'course_subname': 'COMP130013.02 Computer Architecture Laboratory', 'course_color': '#63c500'}, 22335: {'course_name': '软件工程', 'course_subname': 'COMP130015.01 Software Engineering', 'course_color': '#324A4D'}, 22366: {'course_name': 'JAVA语言', 'course_subname': 'COMP130048.01 Java Programming', 'course_color': '#e37200'}, 22448: {'course_name': '网络创新实验', 'course_subname': 'COMP130107.01 Innovation Experiment of Networks', 'course_color': '#ff33cc'}, 22466: {'course_name': '面向对象程序设计', 'course_subname': 'COMP130135.04 Object Oriented Programming', 'course_color': '#2449b5'}}
+2020-06-28 22:56:58,668 - werkzeug - _internal.py[line:122] - INFO - 192.168.1.102 - - [28/Jun/2020 22:56:58] "POST /getMainData HTTP/1.1" 200 -
+2020-06-28 23:06:17,763 - werkzeug - _internal.py[line:122] - INFO - 192.168.1.101 - - [28/Jun/2020 23:06:17] "GET /hello HTTP/1.1" 200 -
+2020-06-28 23:06:18,569 - werkzeug - _internal.py[line:122] - INFO - 192.168.1.101 - - [28/Jun/2020 23:06:18] "GET /hello HTTP/1.1" 200 -
+2020-06-28 23:06:18,619 - werkzeug - _internal.py[line:122] - INFO - 192.168.1.101 - - [28/Jun/2020 23:06:18] "GET /favicon.ico HTTP/1.1" 404 -

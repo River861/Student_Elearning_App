@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="topbar_background">#394b57</color>
+    <color name="main_color">#1b6fab</color>
+    <color name="topbar_txt">#ffffff</color>
+    <color name="menu_background">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="dirty_white">#f8f8f8</color>
+
+    <color name="gray">#a7a2a2</color>
+    <color name="text_gray">#8D7A71</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_black">#3c4044</color>
+    <color name="div_white">#E5E5E5</color>
+
+    <color name="loading_text">#f8f8f8</color>
+    <color name="loading_background">#CC111111</color>
+
+    <color name="date_txt">#515151</color>
+
+</resources>
