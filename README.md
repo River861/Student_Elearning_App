@@ -34,7 +34,7 @@
 
 ##### 1） 登录
 
-<img src=".\Report\1.1.PNG" style="zoom:5%;" />     <img src=".\Report\1.2.PNG" style="zoom:5%;" />
+<img src=".\Report\1.1.PNG" style="zoom:1%;" />     <img src=".\Report\1.2.PNG" style="zoom:1%;" />
 
 若之前已登录过，则用户名和密码将会被自动填充；每当进行数据请求时界面都会有loading动画。
 
